@@ -1,0 +1,10 @@
+#!/usr/bin/python2
+
+import  sys
+
+f_name=sys.argv[1:]
+
+for  i  in  f_name:
+	open(i,'w')
+
+
